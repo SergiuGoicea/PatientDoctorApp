@@ -5,6 +5,9 @@ import javax.validation.constraints.Size;
 
 import com.sun.istack.NotNull;
 
+import kronsoft.internship.validation.UserValidation;
+
+@UserValidation
 public class UserDto extends BaseDto{
 
 

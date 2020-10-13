@@ -4,10 +4,12 @@ import javax.validation.ConstraintValidator;
 import javax.validation.ConstraintValidatorContext;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
 
 import kronsoft.internship.dto.UserDto;
 import kronsoft.internship.repository.UserRepository;
 
+@Component
 public class UserValidator implements ConstraintValidator<UserValidation, UserDto>{
 
 	@Autowired
